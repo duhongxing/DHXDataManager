@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223F7CB81F188BB000F02C74 /* DHXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F7CB71F188BB000F02C74 /* DHXButton.m */; };
+		223F7CBA1F18913700F02C74 /* 公司默认头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 223F7CB91F18913700F02C74 /* 公司默认头像.png */; };
+		223F7CBD1F189D6A00F02C74 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F7CBC1F189D6A00F02C74 /* UIButton+Layout.m */; };
 		2255E2231F15B21600CC058F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2221F15B21600CC058F /* main.m */; };
 		2255E2261F15B21600CC058F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2251F15B21600CC058F /* AppDelegate.m */; };
 		2255E2291F15B21600CC058F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2281F15B21600CC058F /* ViewController.m */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223F7CB61F188BB000F02C74 /* DHXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHXButton.h; sourceTree = "<group>"; };
+		223F7CB71F188BB000F02C74 /* DHXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHXButton.m; sourceTree = "<group>"; };
+		223F7CB91F18913700F02C74 /* 公司默认头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公司默认头像.png"; sourceTree = "<group>"; };
+		223F7CBB1F189D6A00F02C74 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		223F7CBC1F189D6A00F02C74 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		2255E21E1F15B21600CC058F /* DHXDataManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHXDataManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2255E2221F15B21600CC058F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2255E2241F15B21600CC058F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,10 +113,15 @@
 				2255E2251F15B21600CC058F /* AppDelegate.m */,
 				2255E2271F15B21600CC058F /* ViewController.h */,
 				2255E2281F15B21600CC058F /* ViewController.m */,
+				223F7CB61F188BB000F02C74 /* DHXButton.h */,
+				223F7CB71F188BB000F02C74 /* DHXButton.m */,
+				223F7CBB1F189D6A00F02C74 /* UIButton+Layout.h */,
+				223F7CBC1F189D6A00F02C74 /* UIButton+Layout.m */,
 				2255E22A1F15B21600CC058F /* Main.storyboard */,
 				2255E22D1F15B21700CC058F /* Assets.xcassets */,
 				2255E22F1F15B21700CC058F /* LaunchScreen.storyboard */,
 				2255E2321F15B21700CC058F /* Info.plist */,
+				223F7CB91F18913700F02C74 /* 公司默认头像.png */,
 				2255E2211F15B21600CC058F /* Supporting Files */,
 			);
 			path = DHXDataManager;
@@ -249,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223F7CBA1F18913700F02C74 /* 公司默认头像.png in Resources */,
 				2255E2311F15B21700CC058F /* LaunchScreen.storyboard in Resources */,
 				2255E22E1F15B21700CC058F /* Assets.xcassets in Resources */,
 				2255E22C1F15B21600CC058F /* Main.storyboard in Resources */,
@@ -278,6 +292,8 @@
 			files = (
 				2255E2291F15B21600CC058F /* ViewController.m in Sources */,
 				2255E2261F15B21600CC058F /* AppDelegate.m in Sources */,
+				223F7CB81F188BB000F02C74 /* DHXButton.m in Sources */,
+				223F7CBD1F189D6A00F02C74 /* UIButton+Layout.m in Sources */,
 				2255E2231F15B21600CC058F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DH387CSQPW;
 				INFOPLIST_FILE = DHXDataManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baitongshiji.DHXDataManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DH387CSQPW;
 				INFOPLIST_FILE = DHXDataManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baitongshiji.DHXDataManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +532,7 @@
 				2255E24D1F15B21700CC058F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2255E24E1F15B21700CC058F /* Build configuration list for PBXNativeTarget "DHXDataManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +541,7 @@
 				2255E2501F15B21700CC058F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2255E2511F15B21700CC058F /* Build configuration list for PBXNativeTarget "DHXDataManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +550,7 @@
 				2255E2531F15B21700CC058F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
