@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		223F7CB81F188BB000F02C74 /* DHXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F7CB71F188BB000F02C74 /* DHXButton.m */; };
 		223F7CBA1F18913700F02C74 /* 公司默认头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 223F7CB91F18913700F02C74 /* 公司默认头像.png */; };
-		223F7CBD1F189D6A00F02C74 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F7CBC1F189D6A00F02C74 /* UIButton+Layout.m */; };
 		2255E2231F15B21600CC058F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2221F15B21600CC058F /* main.m */; };
 		2255E2261F15B21600CC058F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2251F15B21600CC058F /* AppDelegate.m */; };
 		2255E2291F15B21600CC058F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2281F15B21600CC058F /* ViewController.m */; };
@@ -18,6 +16,8 @@
 		2255E2311F15B21700CC058F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2255E22F1F15B21700CC058F /* LaunchScreen.storyboard */; };
 		2255E23C1F15B21700CC058F /* DHXDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E23B1F15B21700CC058F /* DHXDataManagerTests.m */; };
 		2255E2471F15B21700CC058F /* DHXDataManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2461F15B21700CC058F /* DHXDataManagerUITests.m */; };
+		22578B711F1CBFB600643501 /* DHXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578B6E1F1CBFB600643501 /* DHXButton.m */; };
+		22578B721F1CBFB600643501 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 22578B701F1CBFB600643501 /* UIButton+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		223F7CB61F188BB000F02C74 /* DHXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHXButton.h; sourceTree = "<group>"; };
-		223F7CB71F188BB000F02C74 /* DHXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHXButton.m; sourceTree = "<group>"; };
 		223F7CB91F18913700F02C74 /* 公司默认头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公司默认头像.png"; sourceTree = "<group>"; };
-		223F7CBB1F189D6A00F02C74 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
-		223F7CBC1F189D6A00F02C74 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		2255E21E1F15B21600CC058F /* DHXDataManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHXDataManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2255E2221F15B21600CC058F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2255E2241F15B21600CC058F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +55,12 @@
 		2255E2421F15B21700CC058F /* DHXDataManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHXDataManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2255E2461F15B21700CC058F /* DHXDataManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHXDataManagerUITests.m; sourceTree = "<group>"; };
 		2255E2481F15B21700CC058F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22578B6D1F1CBFB600643501 /* DHXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHXButton.h; sourceTree = "<group>"; };
+		22578B6E1F1CBFB600643501 /* DHXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHXButton.m; sourceTree = "<group>"; };
+		22578B6F1F1CBFB600643501 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		22578B701F1CBFB600643501 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
+		22578B731F1CBFE300643501 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		22578B741F1CC34400643501 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +115,9 @@
 				2255E2251F15B21600CC058F /* AppDelegate.m */,
 				2255E2271F15B21600CC058F /* ViewController.h */,
 				2255E2281F15B21600CC058F /* ViewController.m */,
-				223F7CB61F188BB000F02C74 /* DHXButton.h */,
-				223F7CB71F188BB000F02C74 /* DHXButton.m */,
-				223F7CBB1F189D6A00F02C74 /* UIButton+Layout.h */,
-				223F7CBC1F189D6A00F02C74 /* UIButton+Layout.m */,
+				22578B731F1CBFE300643501 /* PrefixHeader.pch */,
+				22578B741F1CC34400643501 /* Macros.h */,
+				22578B6C1F1CBFB600643501 /* Button */,
 				2255E22A1F15B21600CC058F /* Main.storyboard */,
 				2255E22D1F15B21700CC058F /* Assets.xcassets */,
 				2255E22F1F15B21700CC058F /* LaunchScreen.storyboard */,
@@ -151,6 +152,17 @@
 				2255E2481F15B21700CC058F /* Info.plist */,
 			);
 			path = DHXDataManagerUITests;
+			sourceTree = "<group>";
+		};
+		22578B6C1F1CBFB600643501 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				22578B6D1F1CBFB600643501 /* DHXButton.h */,
+				22578B6E1F1CBFB600643501 /* DHXButton.m */,
+				22578B6F1F1CBFB600643501 /* UIButton+Layout.h */,
+				22578B701F1CBFB600643501 /* UIButton+Layout.m */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,8 +304,8 @@
 			files = (
 				2255E2291F15B21600CC058F /* ViewController.m in Sources */,
 				2255E2261F15B21600CC058F /* AppDelegate.m in Sources */,
-				223F7CB81F188BB000F02C74 /* DHXButton.m in Sources */,
-				223F7CBD1F189D6A00F02C74 /* UIButton+Layout.m in Sources */,
+				22578B711F1CBFB600643501 /* DHXButton.m in Sources */,
+				22578B721F1CBFB600643501 /* UIButton+Layout.m in Sources */,
 				2255E2231F15B21600CC058F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DH387CSQPW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHXDataManager/PrefixHeader.pch";
 				INFOPLIST_FILE = DHXDataManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -455,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DH387CSQPW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHXDataManager/PrefixHeader.pch";
 				INFOPLIST_FILE = DHXDataManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
