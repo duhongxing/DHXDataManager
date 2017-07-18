@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DHXButton.h"
+
 @interface ViewController ()
 
 @end
@@ -18,6 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationController.navigationBar.translucent = NO;
+
+    self.title = @"DataManager";
+
 
     DHXButton *button =[[DHXButton alloc]initWithFrame:CGRectMake(50, 20, 260, 40)];
     [button setImage:[UIImage imageNamed:@"公司默认头像"] forState:UIControlStateNormal];

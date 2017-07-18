@@ -9,7 +9,6 @@
 #ifndef ControlsHeader_h
 #define ControlsHeader_h
 
-
 #import "HXHeaderTextField.h"
 
 #endif /* ControlsHeader_h */
