@@ -9,7 +9,7 @@
 #ifndef ControlsHeader_h
 #define ControlsHeader_h
 
-#import "DHXButton.h"
+
 #import "HXHeaderTextField.h"
 
 #endif /* ControlsHeader_h */
