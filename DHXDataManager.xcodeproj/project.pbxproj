@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2241C2471F1DDA950024A5C6 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C2441F1DDA950024A5C6 /* UIButton+Layout.m */; };
+		2230CBE11F1E1E32006642C4 /* DHXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2230CBE01F1E1E32006642C4 /* DHXButton.m */; };
+		2230CBE41F1E1E61006642C4 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2230CBE31F1E1E61006642C4 /* UIButton+Layout.m */; };
 		2241C24A1F1DDAB50024A5C6 /* HXHeaderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C2491F1DDAB50024A5C6 /* HXHeaderTextField.m */; };
 		2241C24E1F1DDBFD0024A5C6 /* UITextField+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C24D1F1DDBFD0024A5C6 /* UITextField+LimitLength.m */; };
 		2241C2521F1DDF370024A5C6 /* 公司默认头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 2241C2511F1DDF370024A5C6 /* 公司默认头像.png */; };
@@ -44,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2241C2431F1DDA950024A5C6 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
-		2241C2441F1DDA950024A5C6 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
+		2230CBDF1F1E1E27006642C4 /* DHXButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHXButton.h; sourceTree = "<group>"; };
+		2230CBE01F1E1E32006642C4 /* DHXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHXButton.m; sourceTree = "<group>"; };
+		2230CBE21F1E1E61006642C4 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		2230CBE31F1E1E61006642C4 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		2241C2481F1DDAB50024A5C6 /* HXHeaderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHeaderTextField.h; sourceTree = "<group>"; };
 		2241C2491F1DDAB50024A5C6 /* HXHeaderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHeaderTextField.m; sourceTree = "<group>"; };
 		2241C24C1F1DDBFD0024A5C6 /* UITextField+LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LimitLength.h"; sourceTree = "<group>"; };
@@ -110,8 +113,8 @@
 		2241C2401F1DDA950024A5C6 /* HXButton */ = {
 			isa = PBXGroup;
 			children = (
-				2241C2431F1DDA950024A5C6 /* UIButton+Layout.h */,
-				2241C2441F1DDA950024A5C6 /* UIButton+Layout.m */,
+				2230CBDF1F1E1E27006642C4 /* DHXButton.h */,
+				2230CBE01F1E1E32006642C4 /* DHXButton.m */,
 			);
 			path = HXButton;
 			sourceTree = "<group>";
@@ -140,6 +143,8 @@
 				2241C25A1F1DDFCE0024A5C6 /* UIView+Frame.m */,
 				2241C24C1F1DDBFD0024A5C6 /* UITextField+LimitLength.h */,
 				2241C24D1F1DDBFD0024A5C6 /* UITextField+LimitLength.m */,
+				2230CBE21F1E1E61006642C4 /* UIButton+Layout.h */,
+				2230CBE31F1E1E61006642C4 /* UIButton+Layout.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -360,11 +365,12 @@
 			files = (
 				2255E2291F15B21600CC058F /* ViewController.m in Sources */,
 				2241C25B1F1DDFCE0024A5C6 /* NSDictionary+Property.m in Sources */,
+				2230CBE11F1E1E32006642C4 /* DHXButton.m in Sources */,
 				2241C2611F1DDFDF0024A5C6 /* NSNumber+HintInfo.m in Sources */,
 				2241C24E1F1DDBFD0024A5C6 /* UITextField+LimitLength.m in Sources */,
 				2255E2261F15B21600CC058F /* AppDelegate.m in Sources */,
 				2241C24A1F1DDAB50024A5C6 /* HXHeaderTextField.m in Sources */,
-				2241C2471F1DDA950024A5C6 /* UIButton+Layout.m in Sources */,
+				2230CBE41F1E1E61006642C4 /* UIButton+Layout.m in Sources */,
 				2241C25D1F1DDFCE0024A5C6 /* UIImage+Color.m in Sources */,
 				2255E2231F15B21600CC058F /* main.m in Sources */,
 				2241C25C1F1DDFCE0024A5C6 /* NSString+RegexCategory.m in Sources */,
