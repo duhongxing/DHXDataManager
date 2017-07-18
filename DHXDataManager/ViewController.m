@@ -25,16 +25,17 @@
     [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     button.imageRect = CGRectMake(10, 5, 30, 30);
-    button.titleRect = CGRectMake(45, 5, 100, 30);
+    button.titleRect = CGRectMake(45, 5, 200, 30);
     [self.view addSubview:button];
 
     
 }
 
-
 - (void)click:(UIButton *)button{
     NSLog(@"click");
 }
 
+
+#pragma mark - =======  常用控件     ========
 
 @end

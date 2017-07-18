@@ -31,7 +31,7 @@ static const char *imageRectKey = "hx_imageRectKey";
     objc_setAssociatedObject(self, imageRectKey, [NSValue valueWithCGRect:imageRect], OBJC_ASSOCIATION_RETAIN);
 }
 
-#pragma mark - ================== 通过运行时动态替换方法 ================
+#pragma mark - ============== 通过运行时动态替换方法 ================
 
 + (void)load{
 
