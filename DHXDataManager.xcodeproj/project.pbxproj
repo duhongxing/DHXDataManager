@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2241C2461F1DDA950024A5C6 /* DHXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C2421F1DDA950024A5C6 /* DHXButton.m */; };
 		2241C2471F1DDA950024A5C6 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C2441F1DDA950024A5C6 /* UIButton+Layout.m */; };
 		2241C24A1F1DDAB50024A5C6 /* HXHeaderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C2491F1DDAB50024A5C6 /* HXHeaderTextField.m */; };
 		2241C24E1F1DDBFD0024A5C6 /* UITextField+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241C24D1F1DDBFD0024A5C6 /* UITextField+LimitLength.m */; };
@@ -45,8 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2241C2411F1DDA950024A5C6 /* DHXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHXButton.h; sourceTree = "<group>"; };
-		2241C2421F1DDA950024A5C6 /* DHXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHXButton.m; sourceTree = "<group>"; };
 		2241C2431F1DDA950024A5C6 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
 		2241C2441F1DDA950024A5C6 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		2241C2481F1DDAB50024A5C6 /* HXHeaderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHeaderTextField.h; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 		2241C2401F1DDA950024A5C6 /* HXButton */ = {
 			isa = PBXGroup;
 			children = (
-				2241C2411F1DDA950024A5C6 /* DHXButton.h */,
-				2241C2421F1DDA950024A5C6 /* DHXButton.m */,
 				2241C2431F1DDA950024A5C6 /* UIButton+Layout.h */,
 				2241C2441F1DDA950024A5C6 /* UIButton+Layout.m */,
 			);
@@ -369,7 +364,6 @@
 				2241C24E1F1DDBFD0024A5C6 /* UITextField+LimitLength.m in Sources */,
 				2255E2261F15B21600CC058F /* AppDelegate.m in Sources */,
 				2241C24A1F1DDAB50024A5C6 /* HXHeaderTextField.m in Sources */,
-				2241C2461F1DDA950024A5C6 /* DHXButton.m in Sources */,
 				2241C2471F1DDA950024A5C6 /* UIButton+Layout.m in Sources */,
 				2241C25D1F1DDFCE0024A5C6 /* UIImage+Color.m in Sources */,
 				2255E2231F15B21600CC058F /* main.m in Sources */,

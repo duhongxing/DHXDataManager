@@ -19,14 +19,14 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationController.navigationBar.translucent = NO;
 
-    DHXButton *button =[[DHXButton alloc]initWithFrame:CGRectMake(50, 20, 260, 40)];
-    [button setImage:[UIImage imageNamed:@"公司默认头像"] forState:UIControlStateNormal];
-    [button setTitle:@"DataManager" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
-    button.imageRect = CGRectMake(10, 5, 30, 30);
-    button.titleRect = CGRectMake(45, 5, 200, 30);
-    [self.view addSubview:button];
+//    DHXButton *button =[[DHXButton alloc]initWithFrame:CGRectMake(50, 20, 260, 40)];
+//    [button setImage:[UIImage imageNamed:@"公司默认头像"] forState:UIControlStateNormal];
+//    [button setTitle:@"DataManager" forState:UIControlStateNormal];
+//    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+//    button.imageRect = CGRectMake(10, 5, 30, 30);
+//    button.titleRect = CGRectMake(45, 5, 200, 30);
+//    [self.view addSubview:button];
 
     
 }
