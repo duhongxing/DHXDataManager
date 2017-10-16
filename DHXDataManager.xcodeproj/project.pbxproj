@@ -25,6 +25,7 @@
 		2255E2311F15B21700CC058F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2255E22F1F15B21700CC058F /* LaunchScreen.storyboard */; };
 		2255E23C1F15B21700CC058F /* DHXDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E23B1F15B21700CC058F /* DHXDataManagerTests.m */; };
 		2255E2471F15B21700CC058F /* DHXDataManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255E2461F15B21700CC058F /* DHXDataManagerUITests.m */; };
+		225E60461F207D13001558DB /* UIButton+Various.m in Sources */ = {isa = PBXBuildFile; fileRef = 225E60451F207D13001558DB /* UIButton+Various.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		2255E2481F15B21700CC058F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22578B731F1CBFE300643501 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		22578B741F1CC34400643501 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		225E60441F207D13001558DB /* UIButton+Various.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Various.h"; sourceTree = "<group>"; };
+		225E60451F207D13001558DB /* UIButton+Various.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Various.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 		2241C24B1F1DDBCF0024A5C6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				225E60441F207D13001558DB /* UIButton+Various.h */,
+				225E60451F207D13001558DB /* UIButton+Various.m */,
 				2241C25F1F1DDFDF0024A5C6 /* NSNumber+HintInfo.h */,
 				2241C2601F1DDFDF0024A5C6 /* NSNumber+HintInfo.m */,
 				2241C2531F1DDFCE0024A5C6 /* NSDictionary+Property.h */,
@@ -368,6 +373,7 @@
 				2230CBE11F1E1E32006642C4 /* DHXButton.m in Sources */,
 				2241C2611F1DDFDF0024A5C6 /* NSNumber+HintInfo.m in Sources */,
 				2241C24E1F1DDBFD0024A5C6 /* UITextField+LimitLength.m in Sources */,
+				225E60461F207D13001558DB /* UIButton+Various.m in Sources */,
 				2255E2261F15B21600CC058F /* AppDelegate.m in Sources */,
 				2241C24A1F1DDAB50024A5C6 /* HXHeaderTextField.m in Sources */,
 				2230CBE41F1E1E61006642C4 /* UIButton+Layout.m in Sources */,

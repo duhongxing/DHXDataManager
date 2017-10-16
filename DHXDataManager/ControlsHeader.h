@@ -10,5 +10,6 @@
 #define ControlsHeader_h
 
 #import "HXHeaderTextField.h"
+#import "DHXButton.h"
 
 #endif /* ControlsHeader_h */
